@@ -103,7 +103,7 @@ export default function App() {
     return(
         <Grid2 container >
             <Grid2 xs={12}>
-            <StopWatch timeValue={time} timeStart={startTime} />
+            <StopWatch timeValue={time} />
             <Stack direction='row' spacing={2} sx={{justifyContent:'center', marginTop:'2vh'}} >
 
                 {
